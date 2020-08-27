@@ -1,0 +1,16 @@
+div.card {
+    position: absolute;
+    display: flex;
+    flex-flow: column nowrap;
+    cursor: pointer;
+    background-color: rgb(255, 255, 100);
+    border: 1px solid rgb(0, 0, 0);
+    min-width: 200px;
+    min-height: 200px;
+    max-width: 250px;
+    max-height: 250px;
+}
+
+div.card > * {
+    flex: 1 100%;
+  }
